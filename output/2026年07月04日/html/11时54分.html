@@ -1,0 +1,138 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2026-07-04 11:54:14</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">国产 中国</td>
+                <td class="count">12</td>
+                <td class="percentage">4.71%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E9%93%B6%E8%A1%8C%E9%87%8D%E5%90%AF5%E5%B9%B4%E6%9C%9F%E5%A4%A7%E9%A2%9D%E5%AD%98%E5%8D%95" target="_blank" class="news-link">中国银行重启5年期大额存单</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 11时54分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7658224040206106675/" target="_blank" class="news-link">“十五五”时期美丽中国这样建设</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 11时54分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2557077" target="_blank" class="news-link">中国空调凭啥在欧洲这么夯</a> [8] <font color='grey'>- 11时54分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2055282982999385425" target="_blank" class="news-link">如何看待中国 80 后集体扎堆染黄毛？他们在「叛逆」什么？</a> [9] <font color='grey'>- 11时54分</font></div><br>[抖音] <a href="https://www.douyin.com/hot/2556627" target="_blank" class="news-link">中国男篮73:92不敌日本男篮</a> [10] <font color='grey'>- 11时54分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7657861832220229651/" target="_blank" class="news-link">中国男篮世预赛主场惨败日本</a> [16] <font color='grey'>- 11时54分</font><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33511637" target="_blank" class="news-link">中国男篮73比92不敌日本男篮，世预赛出线存变数</a> [16] <font color='grey'>- 11时54分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7658110203153596425/" target="_blank" class="news-link">记者：现有球员支撑不了中国男篮战术</a> [19] <font color='grey'>- 11时54分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E8%88%B9%E5%91%98%E5%9C%A8%E8%A2%AB%E9%9F%A9%E6%B5%B7%E8%AD%A6%E6%89%A3%E6%8A%BC%E6%9C%9F%E9%97%B4%E6%AD%BB%E4%BA%A1" target="_blank" class="news-link">中国船员在被韩海警扣押期间死亡</a> [21] <font color='grey'>- 11时54分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7658159742007312426/" target="_blank" class="news-link">媒体人谈中国男篮输日本19分</a> [23] <font color='grey'>- 11时54分</font></div><br>[贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28355836&amp;amp;topic_name=%E6%AC%A7%E6%B4%B2%E7%83%AD%E5%88%B0%E7%88%86%2C%E7%A9%BA%E8%B0%83%E5%85%A8%E9%9D%A0%E4%B8%AD%E5%9B%BD%E9%80%A0" target="_blank" class="news-link">欧洲热到爆,空调全靠中国造</a> [24] <font color='grey'>- 11时54分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7657895882733506067/" target="_blank" class="news-link">中国女球迷电梯偶遇C罗获3次拥抱</a> [30] <font color='grey'>- 11时54分</font></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">美国 日本 韩国</td>
+                <td class="count">12</td>
+                <td class="percentage">4.71%</td>
+                <td class="titles"><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28355884&amp;amp;topic_name=%E4%B8%80%E7%A2%97%E9%9D%A238%E5%9D%97%2C%E6%97%A5%E6%9C%AC%E7%BB%8F%E6%B5%8E%E8%BF%98%E5%9C%A8%E8%92%B8" target="_blank" class="news-link">一碗面38块,日本经济还在蒸</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时54分</font></div><br>[知乎] <a href="https://www.zhihu.com/question/2056372314535453404" target="_blank" class="news-link">美国糖尿病协会下调亚裔人群超重和肥胖 BMI 标准，为何要下调？BMI 正常就代表体重健康吗？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 11时54分</font><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3776174" target="_blank" class="news-link">韩国股市杠杆失控：450亿美元资金狂飙，SK海力士单只ETF规模碾压美股科技巨头</a> [6] <font color='grey'>- 11时54分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7657454416303882259/" target="_blank" class="news-link">陪看WTT美国大满贯</a> [9] <font color='grey'>- 11时54分</font></div><br>[贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28355865&amp;amp;topic_name=%E6%97%A5%E6%9C%AC%E7%94%B7%E6%BC%94%E5%91%98%E7%89%87%E5%9C%BA%E9%AA%9A%E6%89%B0%E5%A5%B3%E6%98%8E%E6%98%9F" target="_blank" class="news-link">日本男演员片场骚扰女明星</a> [10] <font color='grey'>- 11时54分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33515091" target="_blank" class="news-link">独砍27分，日本男篮归化球员霍金森：每支队伍都有自己优势</a> [11] <font color='grey'>- 11时54分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2417003" target="_blank" class="news-link">韩国汇市迎来强援？据称SK海力士赴美上市部分资金将回流国内</a> [12] <font color='grey'>- 11时54分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2055796070526014657" target="_blank" class="news-link">日本修法断了女天皇之路，为何选择此时收紧皇室继承权？</a> [15] <font color='grey'>- 11时54分</font></div><br>[贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28355853&amp;amp;topic_name=%E9%85%B1%E6%B2%B9%E6%97%A5%E6%9C%AC%E7%89%B9%E6%9C%89%3F%E6%97%A5%E7%BD%91%E5%8F%8B%E9%86%92%E9%86%92" target="_blank" class="news-link">酱油日本特有?日网友醒醒</a> [17] <font color='grey'>- 11时54分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%9D%A8%E7%80%9A%E6%A3%AE%E5%9B%9E%E5%BA%94%E4%B8%8D%E6%95%8C%E6%97%A5%E6%9C%AC%E7%94%B7%E7%AF%AE" target="_blank" class="news-link">杨瀚森回应不敌日本男篮</a> [24] <font color='grey'>- 11时54分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7658466555507867689/" target="_blank" class="news-link">美国年轻人对特朗普只有一句话</a> [25] <font color='grey'>- 11时54分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7658222878701129259/" target="_blank" class="news-link">韩国出生人口为什么反弹</a> [29] <font color='grey'>- 11时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">3</td>
+                <td class="percentage">1.18%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3776124" target="_blank" class="news-link">AI焦虑暂退，科技股反弹，欧股两日连创新高，布油两日反弹但连跌四周</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 11时54分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33493022" target="_blank" class="news-link">AI填志愿实测：信息更新可能有偏差，决策还得考生自己做</a> [6] <font color='grey'>- 11时54分</font><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3776134" target="_blank" class="news-link">Meta“算力过剩”疑云背后：扎克伯格说AI进展慢了，AI负责人新模型说已追上GPT-5.5</a> [9] <font color='grey'>- 11时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>4</td>
+                <td class="word">芯片 光刻机</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3776164" target="_blank" class="news-link">一颗14克的芯片，拯救了葡萄牙和C罗</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 11时54分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2416647" target="_blank" class="news-link">【焦点复盘】市场全天现缩量震荡，超160家个股涨逾10%，大批芯片强势股遭遇补跌</a> [10] <font color='grey'>- 11时54分</font></td>
+            </tr>
+        
+            <tr>
+                <td>5</td>
+                <td class="word">DeepSeek 梁文锋</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3776170" target="_blank" class="news-link">DeepSeek高峰涨价意味着什么?高盛：国内大模型竞争正回归理性</a> [8] <font color='grey'>- 11时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>6</td>
+                <td class="word">华为 鸿蒙 HarmonyOS 任正非</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%8D%8E%E4%B8%BA9%E6%9C%88%E6%96%B0%E5%93%81%E6%9B%9D%E5%85%89%23&amp;t=31&amp;band_rank=18&amp;Refer=top" target="_blank" class="news-link">华为9月新品曝光</a> [18] <font color='grey'>- 11时54分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>7</td>
+                <td class="word">claude Anthropic</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles">[知乎] <a href="https://www.zhihu.com/question/2056394331271999624" target="_blank" class="news-link">阿里巴巴内部宣布全面禁用 A 社旗下产品，包括 Claude Code 、 Opus 等，这释放了哪些信号？</a> [13] <font color='grey'>- 11时54分</font></td>
+            </tr>
+        
+            <tr>
+                <td>8</td>
+                <td class="word">iphone ipad mac ios</td>
+                <td class="count">1</td>
+                <td class="percentage">0.39%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%9B%9DiPhone18%E6%97%A0%E7%BC%98iOS27%E4%B8%A4%E5%A4%A7%E5%8A%9F%E8%83%BD%23&amp;t=31&amp;band_rank=17&amp;Refer=top" target="_blank" class="news-link">曝iPhone18无缘iOS27两大功能</a> [17] <font color='grey'>- 11时54分</font></div></td>
+            </tr>
+        
+        </table>
+    
+        <div class="new-section">
+            <h3>🆕 本次新增热点新闻 (共 19 条)</h3>
+        <h4>今日头条 (6 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7658224040206106675/" target="_blank" class="news-link">“十五五”时期美丽中国这样建设</a> <font color='red'><strong>[3]</strong></font></li><li><a href="https://www.toutiao.com/trending/7657454416303882259/" target="_blank" class="news-link">陪看WTT美国大满贯</a> [9]</li><li><a href="https://www.toutiao.com/trending/7658110203153596425/" target="_blank" class="news-link">记者：现有球员支撑不了中国男篮战术</a> [19]</li><li><a href="https://www.toutiao.com/trending/7658159742007312426/" target="_blank" class="news-link">媒体人谈中国男篮输日本19分</a> [23]</li><li><a href="https://www.toutiao.com/trending/7658466555507867689/" target="_blank" class="news-link">美国年轻人对特朗普只有一句话</a> [25]</li><li><a href="https://www.toutiao.com/trending/7658222878701129259/" target="_blank" class="news-link">韩国出生人口为什么反弹</a> [29]</li></ul><h4>百度热搜 (2 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E9%93%B6%E8%A1%8C%E9%87%8D%E5%90%AF5%E5%B9%B4%E6%9C%9F%E5%A4%A7%E9%A2%9D%E5%AD%98%E5%8D%95" target="_blank" class="news-link">中国银行重启5年期大额存单</a> <font color='red'><strong>[2]</strong></font></li><li><a href="https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E8%88%B9%E5%91%98%E5%9C%A8%E8%A2%AB%E9%9F%A9%E6%B5%B7%E8%AD%A6%E6%89%A3%E6%8A%BC%E6%9C%9F%E9%97%B4%E6%AD%BB%E4%BA%A1" target="_blank" class="news-link">中国船员在被韩海警扣押期间死亡</a> [21]</li></ul><h4>华尔街见闻 (3 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3776174" target="_blank" class="news-link">韩国股市杠杆失控：450亿美元资金狂飙，SK海力士单只ETF规模碾压美股科技巨头</a> [6]</li><li><a href="https://wallstreetcn.com/articles/3776170" target="_blank" class="news-link">DeepSeek高峰涨价意味着什么?高盛：国内大模型竞争正回归理性</a> [8]</li><li><a href="https://wallstreetcn.com/articles/3776134" target="_blank" class="news-link">Meta“算力过剩”疑云背后：扎克伯格说AI进展慢了，AI负责人新模型说已追上GPT-5.5</a> [9]</li></ul><h4>澎湃新闻 (1 条)</h4><ul><li><a href="https://m.thepaper.cn/newsDetail_forward_33511637" target="_blank" class="news-link">中国男篮73比92不敌日本男篮，世预赛出线存变数</a> [16]</li></ul><h4>财联社热门 (1 条)</h4><ul><li><a href="https://www.cls.cn/detail/2417003" target="_blank" class="news-link">韩国汇市迎来强援？据称SK海力士赴美上市部分资金将回流国内</a> [12]</li></ul><h4>贴吧 (1 条)</h4><ul><li><a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28355884&amp;amp;topic_name=%E4%B8%80%E7%A2%97%E9%9D%A238%E5%9D%97%2C%E6%97%A5%E6%9C%AC%E7%BB%8F%E6%B5%8E%E8%BF%98%E5%9C%A8%E8%92%B8" target="_blank" class="news-link">一碗面38块,日本经济还在蒸</a> <font color='red'><strong>[4]</strong></font></li></ul><h4>微博 (2 条)</h4><ul><li><a href="https://s.weibo.com/weibo?q=%23%E6%9B%9DiPhone18%E6%97%A0%E7%BC%98iOS27%E4%B8%A4%E5%A4%A7%E5%8A%9F%E8%83%BD%23&amp;t=31&amp;band_rank=17&amp;Refer=top" target="_blank" class="news-link">曝iPhone18无缘iOS27两大功能</a> [17]</li><li><a href="https://s.weibo.com/weibo?q=%23%E5%8D%8E%E4%B8%BA9%E6%9C%88%E6%96%B0%E5%93%81%E6%9B%9D%E5%85%89%23&amp;t=31&amp;band_rank=18&amp;Refer=top" target="_blank" class="news-link">华为9月新品曝光</a> [18]</li></ul><h4>抖音 (1 条)</h4><ul><li><a href="https://www.douyin.com/hot/2557077" target="_blank" class="news-link">中国空调凭啥在欧洲这么夯</a> [8]</li></ul><h4>知乎 (2 条)</h4><ul><li><a href="https://www.zhihu.com/question/2055282982999385425" target="_blank" class="news-link">如何看待中国 80 后集体扎堆染黄毛？他们在「叛逆」什么？</a> [9]</li><li><a href="https://www.zhihu.com/question/2055796070526014657" target="_blank" class="news-link">日本修法断了女天皇之路，为何选择此时收紧皇室继承权？</a> [15]</li></ul></div>
+    </body>
+    </html>
+    
